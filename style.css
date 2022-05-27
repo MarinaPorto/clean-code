@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.info-link {
+.header__info-link {
   font-family: fantasy, cursive;
 }
 
@@ -40,17 +40,17 @@ body {
   flex-grow: 1;
 }
 
-.task-wrapper {
+.main__task-wrapper {
   display: flex;
 }
 
-.list {
+.main__task-wrapper-list {
   margin: 0;
   padding: 0px;
 }
 
 li,
-.title {
+.main__title {
   list-style: none;
 }
 
@@ -74,7 +74,7 @@ input,
 }
 
 /* Heading */
-.title,
+.main__title,
 label[for="text-field"] {
   color: #333;
   font-weight: 700;
